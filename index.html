@@ -20,8 +20,8 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>6th Workshop on Benchmarking Multi-Target Tracking</h1>
-						<p>Segmenting and Tracking Every Point and Pixel edition</p>
+						<h1>Segmenting and Tracking Every Point and Pixel: 6th Workshop on Benchmarking Multi-Target Tracking</h1>
+						<p>In conjuction with the International Conference on Computer Vision (ICCV) 2021</p>
 					</header>
 
 				<!-- Nav -->
@@ -31,6 +31,8 @@
 							<li><a href="#first">Schedule</a></li>
 							<li><a href="#second">Competition</a></li>
 							<li><a href="#cta">Organizers</a></li>
+							<li><a href="http://iccv2021.thecvf.com/home">ICCV 2021</a></li>
+
 						</ul>
 					</nav>
 
@@ -49,11 +51,23 @@
 										<table style="width:100%">
 										  <tr>
 										    <td>Time</td>
-										    <td>TBA</td>
+										    <td>October  11 - October  17,  2021; Details TBA</td>
 										  </tr>
 										  <tr>
 										    <td>Venue</td>
-										    <td><a href="https://iccv2019.thecvf.com/">ICCV<a></td>
+										    <td><a href="https://iccv2019.thecvf.com/" title="Better luck next year!">ICCV, virtual<a></td>
+										  </tr>
+										  <tr>
+										    <td>Challenge opens</td>
+										    <td>June 1st, 2021</td>
+										  </tr>
+										  <tr>
+										    <td>Challenge deadline</td>
+										    <td>September 10th, 2021</td>
+										  </tr>
+										  <tr>
+										    <td>Method abstract deadline</td>
+										    <td>September 25th, 2021</td>
 										  </tr>
 										  <tr>
 										    <td>Recordings</td>
@@ -189,11 +203,32 @@
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Competition</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Competitions</h2>
+									<p>For the 6th edition of our <i>Benchmarking Multi-Target Tracking</i> workshop, we are planning to take multi-object tracking and segmentation to the next level. In this edition, we will organize three challenging competitions, for which we require to assign semantic classes and track identities to all pixels in a video or 3D points based either on a monocular video or a LiDAR stream.</p>
 								</header>
-								<p class="content">Competition info goes here.</p>
+								<p class="content">
+				
+
+									<h3> Video track</h3> 
+									<span class="image left"><img width="100" src="images/step_thumb.png" alt="" /></span>
+									For this track we extended two existing datasets (<a href="http://www.cvlibs.net/publications/Geiger2012CVPR.pdf">KITTI</a> and <a href="https://arxiv.org/abs/2010.07548">MOTChallenge</a>) with dense, pixel-precise labels in both spatial and temporal domain: KITTI-STEP and MOTChallenge-STEP. For MOTChallenge-STEP, we have extended instance-level annotations of two training and two challenging test sequences of <a href="https://arxiv.org/abs/1902.03604">MOTChallenge-MOTS</a> labels and 21 training and 29 test sequences of <a href="https://arxiv.org/abs/1902.03604">KITTI-MOTS</a> labels. For more information we refer to <a href="https://arxiv.org/abs/2102.11859">our recent paper</a>. The task will be to assign a semantic and unique instance label to every pixel of the video. 
+									<br/></br>
+
+									<h3> LiDAR track</h3>
+ 									<span class="image left"><img width="100" src="images/4dpan_thumb.png" alt="" /></span>
+									This challenge will be based on the <a href="https://arxiv.org/abs/1904.01416">SemanticKITTI</a> dataset, introduced in the context of <a href="https://arxiv.org/abs/1904.01416">LiDAR semantic segmentation</a> and <a href="https://arxiv.org/abs/2003.02371">panoptic segmentation</a>. 
+									The dataset is densely labeled in the spatial and temporal domain, which makes it a perfect test-bed for our 4D panoptic LiDAR segmentation challenge, as introduced in our recent paper on <a href="https://arxiv.org/abs/2102.12472">4D Panoptic LiDAR segmentation</a>. The task will be to assign a semantic and unique instance label to every 3D LiDAR point. 
+									<br/></br>								
+
+									<h3> Video + depth track</h3> 
+ 									<span class="image left"><img width="100" src="images/dvps_thumb.png" alt="" /></span>
+									This track will be based on recently introduced <a href="https://arxiv.org/pdf/2012.05258.pdf">SemanticKITTI-DVPS</a> dataset, that augments LiDAR-based <a href="https://arxiv.org/abs/1904.01416">SemanticKITTI</a> dataset with pixel-precise semantic and instance labels of images, derived from LiDAR labels in a semi-automated manner, providing semantic and depth labels needed for evaluation of joint video panoptic segmentation and monocular depth estimation. In addition to assigning semantic and instance labels, this track requires a depth estimate for every pixel. 
+									<br/></br> 
+									For each challenge, we will award the <b>challenge winner</b> and the <b>most innovative</b> entry that our committee will select based on the submitted 4-page abstracts and invite both to give a short talk at our workshop. 
+									We will rank all methods with respect to recently introduced <a href="https://arxiv.org/abs/2102.11859">Segmentating and Tracking Quality (STQ) metric, inspired by <a href="https://link.springer.com/article/10.1007/s11263-020-01375-2">Higher-Order Tracking Accuracy (HOTA)</a> metric, introduced in the context of vision-based multi-object tracking. 
+									<br/></br>	
+									<b>Details will be announced soon!</b>	
+								</p>
 							</section>
 
 						<!-- Get Started -->
