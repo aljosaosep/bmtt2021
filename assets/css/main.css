@@ -90,6 +90,47 @@ input, select, textarea {
 
 	}
 
+
+
+.speaker-image {
+	display: block;
+	margin:0 auto;
+}
+
+.speaker-name {
+	display: block;
+	text-align: center;
+}
+
+.schedule td {
+	vertical-align: middle;
+}
+
+#organizers, #speakers-images {
+	text-align: center;
+}
+
+.organizer, .speaker {
+	display: inline-block;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.organizer-image img, .speaker-image img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.speaker-image img {
+  object-position: 0 -2px;
+}
+
+#speaker-deva { object-position: 0 2px; }
+
+	
+
 	html {
 		box-sizing: border-box;
 	}
