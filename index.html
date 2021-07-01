@@ -60,7 +60,7 @@
 										  </tr>
 										  <tr>
 										    <td>Challenge opens</td>
-										    <td>June 1st, 2021</td>
+										    <td>July 1st, 2021</td>
 										  </tr>
 										  <tr>
 										    <td>Challenge deadline</td>
@@ -234,20 +234,25 @@
 									<span class="image fit"><img width="100" src="images/teaser_step.png" alt="" /></span>
 									For this track we extended two existing datasets (<a href="http://www.cvlibs.net/publications/Geiger2012CVPR.pdf">KITTI</a> and <a href="https://arxiv.org/abs/2010.07548">MOTChallenge</a>) with dense, pixel-precise labels in both spatial and temporal domain: KITTI-STEP and MOTChallenge-STEP. For MOTChallenge-STEP, we have extended the instance-level annotations of two training and two test sequences of <a href="https://arxiv.org/abs/1902.03604">MOTChallenge-MOTS</a> labels and 21 training and 29 test sequences of <a href="https://arxiv.org/abs/1902.03604">KITTI-MOTS</a> labels. For more information we refer to <a href="https://arxiv.org/abs/2102.11859">our recent paper</a>. The task will be to assign a semantic and unique instance label to every pixel of the video. 
 									<br/></br>
+									Image sequences are avalible at the <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking.php">KITTI tracking dataset website</a>. KITTI STEP labels and instructions are avalilble <a href="https://github.com/google-research/deeplab2/blob/main/g3doc/setup/kitti_step.md">here</a>. 
+									Our baselines and pre-trained models are avalible <a href="https://github.com/google-research/deeplab2">here</a>. <b>The challenge submission platform link will be avalible soon!</b>
+									<br/></br>
 									<hr />
 									<h3>LiDAR track</h3>
  									<span class="image fit"><img width="100" src="images/lidar.png" alt="" /></span>
 									This challenge will be based on the <a href="https://arxiv.org/abs/1904.01416">SemanticKITTI</a> dataset, introduced in the context of <a href="https://arxiv.org/abs/1904.01416">LiDAR semantic segmentation</a> and <a href="https://arxiv.org/abs/2003.02371">panoptic segmentation</a>. 
 									The dataset is densely labeled in the spatial and temporal domain, which makes it a perfect test-bed for our 4D panoptic LiDAR segmentation challenge, as introduced in our recent paper on <a href="https://arxiv.org/abs/2102.12472">4D Panoptic LiDAR segmentation</a>. The task will be to assign a semantic and unique instance label to every 3D LiDAR point. 
+									<br/></br>
+									LiDAR sequences, labels and dataset instructions are avalible at the <a href="http://semantic-kitti.org/dataset.html#download">Semantic KITTI website</a>. Our baselines and pre-trained models are avalible <a href="https://github.com/MehmetAygun/4D-PLS">here</a>. <b>The challenge submission platform is open, <a href="https://competitions.codalab.org/competitions/26369">link</a></b>!
 									<br/></br>								
 									<hr />
 									<h3>Video + depth track</h3> 
  									<span class="image fit"><img width="100" src="images/dvps.gif" alt="" /></span>
-									This track will be based on the recently introduced <a href="https://arxiv.org/pdf/2012.05258.pdf">SemanticKITTI-DVPS</a> dataset, that augments LiDAR-based <a href="https://arxiv.org/abs/1904.01416">SemanticKITTI</a> dataset with pixel-precise semantic and instance labels of images, derived from LiDAR labels in a semi-automated manner, providing semantic and depth labels needed for evaluation of joint video panoptic segmentation and monocular depth estimation. In addition to assigning semantic and instance labels, this track requires a depth estimate for every pixel. 
+									This track will be based on the recently introduced <a href="https://arxiv.org/pdf/2012.05258.pdf">SemanticKITTI-DVPS</a> dataset, that augments LiDAR-based <a href="https://arxiv.org/abs/1904.01416">SemanticKITTI</a> dataset with pixel-precise semantic and instance labels of images, derived from LiDAR labels in a semi-automated manner, providing semantic and depth labels needed for evaluation of joint video panoptic segmentation and monocular depth estimation. In addition to assigning semantic and instance labels, this track requires a depth estimate for every pixel. <b>More info on this challenge is coming soon!</b>
 									<br/></br>
 									<hr />
 									For each challenge, we will award the <b>challenge winner</b> and the <b>most innovative</b> entry that our committee will select based on the submitted 4-page abstracts and invite both to give a short talk at our workshop. 
-									We will rank all methods with respect to the recently introduced <a href="https://arxiv.org/abs/2102.11859">Segmentating and Tracking Quality (STQ) metric</a>.
+									We will rank all methods with respect to the recently introduced <a href="https://arxiv.org/abs/2102.11859">Segmentating and Tracking Quality (STQ) metric</a>. <a href="https://github.com/google-research/deeplab2/blob/main/evaluation/segmentation_and_tracking_quality.py">The official implementation of STQ is avalible here.</a>
 									<br/></br>	
 									<b>More details will be announced soon!</b>	
 								</p>
